@@ -1,0 +1,186 @@
+img.user {
+  height: 35px;
+  width: auto;
+  opacity: 0.85;
+}
+
+.banner {
+  height: 550px;
+  width: auto;
+  background-image: url(/img/propertyBanner.jpg);
+  opacity: 0.9;
+  display: inline;
+}
+
+.container-main {
+  align-items: center;
+  background-color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card-title {
+  display: inline;
+}
+
+.opacity-text {
+  opacity: 0.75;
+}
+
+.clock-img {
+  max-height: 25px;
+  max-width: 25px;
+  opacity: 0.7
+}
+
+.compass-img {
+  max-height: 16px;
+  max-width: 16px;
+}
+
+.area-img {
+  max-height: 15px;
+  max-width: 15px;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.text-price {
+  color: red;
+  font-size: 30px;
+}
+
+.text-black {
+  color: black;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.img-house {
+  max-height: auto;
+  max-width: 450px;
+}
+
+.card {
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.img-plus {
+  max-height: 20px;
+  max-width: 20px;
+}
+
+.margin {
+  margin: 5px;
+}
+
+.float-right {
+  display: inline-flex;
+  float: right;
+}
+
+.img-pin {
+  max-height: 16px;
+  max-width: 16px;
+}
+
+#new-property {
+  display: none;
+}
+
+/* The Modal (background) */
+.modal-plus, .modal-edit, .modal-pin, .modal-inbox {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: scroll;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close, .close1, .close2, .closed {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close, .close1, .close2, .closed:hover,
+.close,.close1, .close2, .closed:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.card-img {
+  height: 180px;
+  width: 240px;
+}
+
+.notification {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 5px 10px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+

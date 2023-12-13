@@ -1,0 +1,66 @@
+.radioGP_gender {
+	display: flex;
+}
+
+input[type=tel],
+input[type=email],
+input[type=text],
+input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.form {
+	display: block;
+	margin: 10%;
+	margin-top: 80px;
+	background-color: white;
+	width: 80%;
+}
+
+.register_form {
+	margin-left: 5%;
+	margin-right: 5%;
+	max-height: 90%;
+	max-width: 90%;
+	border: 2px solid #66ff33;
+}
+
+#register_form_C {
+	border: 2px solid yellow;
+}
+
+.radioGP_gender {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.is_gender {
+  width: 50%;
+}
+
+#btn_register {
+	background: none;
+	color: #ff9933;
+	border: 3px solid;
+	width: 100%;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#btn_register:hover {
+	color: #ffcc00;
+}
+
+#register_form_C {
+	display: none;
+}

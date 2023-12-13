@@ -1,0 +1,14 @@
+@media only screen and (max-width: 426px) {
+	
+	.cta_list {
+		display: none;
+	}
+	
+	.fallGif {
+		width: 95%;
+	}
+	
+	#btn-plus {
+		display:  none;
+	}
+}

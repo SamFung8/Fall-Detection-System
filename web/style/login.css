@@ -1,0 +1,250 @@
+/*	header_bar control (Start) */
+
+.header_bar {
+	transform: none;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	width: 100%;
+	height: 64px;
+	background-color: white;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
+}
+
+.icon {
+	margin-left: 24px;
+	height: 100%;
+	float: left;
+	position: relative;
+	margin-top: 1.5px;
+	width: 250px;
+	height: 60px;
+	/*use for check the location*/
+	/*	border: 5px solid black; */
+}
+
+.cta_list {
+	margin-right: 24px;
+	display: flex;
+	position: absolute;
+	right: 0;
+	padding: 14px 0;
+}
+
+.btn_login {
+	margin-right: 24px;
+	margin-top: 3px;
+}
+
+/*	header_bar control (End) */
+
+/*	all button control (Start) */
+
+.btn_all {
+	background: none;
+	color: cornflowerblue;
+	border: 0px solid;
+	width: 100%;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.btn_register {
+	background: none;
+	border: 3px solid;
+	width: 100%;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.login_btn {
+	border: 3px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.btn_submit {
+	background: block;
+	background-color: #00D50C;
+	border: 0px solid;
+	color: white;
+	width: 100%;
+	font-size: 23px;
+}
+
+.btn_submit:hover {
+	background-color: #00FF0E;
+}
+
+.btn_all:hover {
+	color: blue;
+}
+
+.btn_register:hover {
+	color: red;
+}
+
+/*	all button control (End) */
+
+/*	login nav control (Start) */
+
+.sidenav {
+	margin-top: 64px;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 10px;
+	left: 0;
+	background-color: white;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: red;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+/*	login nav control (End) */
+
+/*	login form control (Start) */
+
+.login_type {
+	display: flex;
+}
+
+.login_control {
+	margin: 30px 40px;
+}
+
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+}
+
+.container {
+	padding: 16px;
+}
+
+/*
+#login_Relatives {
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+*/
+
+#login_Caretaker {
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+input[type=email],
+input[type=text],
+input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+/*	login form control (End) */
+
+/*	image control (End) */
+
+#relatives_img,
+#caretaker_img {
+	width: 250px;
+	padding: 5px;
+	border: 2px solid #ddd;
+	border-radius: 25px;
+}
+
+#caretaker_img {
+	filter: drop-shadow(4px 4px 3px black);
+}
+
+#logo {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+.photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*	image control (End) */
+
+/*	product control (End) */
+
+.control_products {
+	display: block;
+	margin: 10px;
+	margin-top: 80px;
+	background-color: white;
+}
+
+.control_subProducts {
+	display: flex;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.promote {
+	border: 2px solid #ddd;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	margin-top: 5px;
+}
+
+.sub_promote {
+	flex: 1;
+	align-items: center;
+	border: 2px solid #ddd;
+	margin: 5px;
+}
+
+
+
+/*	product control (End) */
